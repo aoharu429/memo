@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  HarukiMemo
+//  DMMemoSample
 //
-//  Created by 青木　春樹 on 2014/08/15.
-//  Copyright (c) 2014年 青木　春樹. All rights reserved.
+//  Created by Master on 2014/07/05.
+//  Copyright (c) 2014年 jp.co.mappy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

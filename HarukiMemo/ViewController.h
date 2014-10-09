@@ -1,13 +1,25 @@
 //
 //  ViewController.h
-//  HarukiMemo
+//  DMMemoSample
 //
-//  Created by 青木　春樹 on 2014/08/15.
-//  Copyright (c) 2014年 青木　春樹. All rights reserved.
+//  Created by Master on 2014/07/05.
+//  Copyright (c) 2014年 jp.co.mappy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+<UITableViewDataSource, UITableViewDelegate>
+//TableViewのデータソース、デリゲートのプロトコル宣言
+{
+    IBOutlet UITableView *table;//TableViewのメンバ変数を宣言
+    NSMutableArray *titleArray;
+    NSMutableArray *timeArray;
+    NSMutableArray *syousaiArray;
+    
+    
+    int selectedIndex;
+}
+
 
 @end

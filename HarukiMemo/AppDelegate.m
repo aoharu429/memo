@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  HarukiMemo
+//  DMMemoSample
 //
-//  Created by 青木　春樹 on 2014/08/15.
-//  Copyright (c) 2014年 青木　春樹. All rights reserved.
+//  Created by Master on 2014/07/05.
+//  Copyright (c) 2014年 jp.co.mappy. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,7 +15,7 @@
     // Override point for customization after application launch.
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
